@@ -1,4 +1,4 @@
-[![Header](https://github.com/DavidShariev/Calculator/blob/development/img/header.jpg)](https://github.com/DavidShariev/)
+[![Header](https://github.com/DavidShariev/Calculator/blob/main/img/header.jpg)](https://github.com/DavidShariev/)
 
 # Calculator
 ___
