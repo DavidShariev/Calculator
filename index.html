@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Calculator</title>
+
+    <link rel='shortcut icon' href='./img/favicon.ico' type='image/x-icon'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- <body class="black-mode"> -->
+<body>
+    
+    <div class='calculator'>
+        <div class='calculator__modes'>
+            <button class='calculator__modes--white'>
+                <img width='15px' height='15px' src='./img/sun.svg' alt=''>
+            </button>
+            <button class='calculator__modes--black'>
+                <img width='10px' height='10px' src='./img/moon.svg' alt=''>
+            </button>
+        </div>
+
+        <div class='calculator__display'>
+            <input type='text' class='calculator__display-expression' placeholder='0'>
+            <input type='text' class='calculator__display-answer' placeholder='0'>
+        </div>
+
+        <div class='calculator__panel'>
+
+            <button class='calculator__panel-btn calculator__panel-btn--dell-all'>
+                <img height='24px' width='24px' src='./img/clean.svg' alt=''>
+            </button>
+            <button class='calculator__panel-btn calculator__panel-btn--dell'>AC</button>
+            <button class='calculator__panel-btn'>.</button>
+            <button class='calculator__panel-btn calculator__panel-btn--action'>x</button>
+
+            <button class='calculator__panel-btn calculator__panel-btn--number'>7</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>8</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>9</button>
+            <button class='calculator__panel-btn calculator__panel-btn--action'>/</button>
+
+            <button class='calculator__panel-btn calculator__panel-btn--number'>4</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>5</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>6</button>
+            <button class='calculator__panel-btn calculator__panel-btn--action'>+</button>
+
+            <button class='calculator__panel-btn calculator__panel-btn--number'>1</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>2</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>3</button>
+            <button class='calculator__panel-btn calculator__panel-btn--action'>-</button>
+
+            <button class='calculator__panel-btn'>(</button>
+            <button class='calculator__panel-btn calculator__panel-btn--number'>0</button>
+            <button class='calculator__panel-btn'>)</button>
+            <button class='calculator__panel-btn calculator__panel-btn--action calculator__panel-btn--enter'>=</button>
+
+            <div class="calculator__panel-line">
+            
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+</html>
