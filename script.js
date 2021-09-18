@@ -39,7 +39,7 @@ function expressionEnter(){
     let expression = expressionInput.value;
     try{
         value = eval(expression).toFixed(2);
-    }catch{
+    }catch(err){
         value = "Error";
     }
 
